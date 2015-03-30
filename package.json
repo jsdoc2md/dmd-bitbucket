@@ -1,0 +1,13 @@
+{
+  "name": "dmd-plugin-example",
+  "author": "Lloyd Brookes <75pound@gmail.com>",
+  "version": "0.1.0",
+  "description": "dmd-plugin-example",
+  "repository": "https://github.com/75lb/dmd-plugin-example.git",
+  "main": "./lib/dmd-plugin-example.js",
+  "keywords": [],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {}
+}
