@@ -1,10 +1,10 @@
 {
-  "name": "dmd-plugin-example",
+  "name": "dmd-bitbucket",
   "author": "Lloyd Brookes <75pound@gmail.com>",
   "version": "0.1.0",
-  "description": "dmd-plugin-example",
-  "repository": "https://github.com/75lb/dmd-plugin-example.git",
-  "main": "./lib/dmd-plugin-example.js",
+  "description": "dmd-bitbucket",
+  "repository": "https://github.com/jsdoc2md/dmd-bitbucket.git",
+  "main": "./lib/dmd-bitbucket.js",
   "keywords": [],
   "engines": {
     "node": ">=0.10.0"
