@@ -1,6 +1,6 @@
-[![view on npm](http://img.shields.io/npm/v/dmd-plugin-example.svg)](https://www.npmjs.org/package/dmd-plugin-example)
-[![npm module downloads per month](http://img.shields.io/npm/dm/dmd-plugin-example.svg)](https://www.npmjs.org/package/dmd-plugin-example)
-[![Dependency Status](https://david-dm.org/jsdoc2md/dmd-plugin-example.svg)](https://david-dm.org/jsdoc2md/dmd-plugin-example)
+[![view on npm](http://img.shields.io/npm/v/dmd-bitbucket.svg)](https://www.npmjs.org/package/dmd-bitbucket)
+[![npm module downloads per month](http://img.shields.io/npm/dm/dmd-bitbucket.svg)](https://www.npmjs.org/package/dmd-bitbucket)
+[![Dependency Status](https://david-dm.org/jsdoc2md/dmd-bitbucket.svg)](https://david-dm.org/jsdoc2md/dmd-bitbucket)
 
 # dmd-bitbucket
 You might have noticed the default jsdoc2md output looks shit on Bitbucket. Hence this plugin.. 
@@ -9,10 +9,10 @@ You might have noticed the default jsdoc2md output looks shit on Bitbucket. Henc
 ## Install and use
 In the project requiring this plug-in, install it as a devDependency: 
 ```
-$ npm install dmd-plugin-example --save-dev
+$ npm install dmd-bitbucket --save-dev
 ```
 
 Then pass the plug-in name to `jsdoc2md` or `dmd` when generating your docs:
 ```
-$ jsdoc2md --plugin dmd-plugin-example lib/*.js 
+$ jsdoc2md --plugin dmd-bitbucket lib/*.js 
 ```
