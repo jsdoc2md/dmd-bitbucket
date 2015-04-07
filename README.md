@@ -16,5 +16,5 @@ $ npm install dmd-bitbucket --save-dev
 
 Then pass the plug-in name to `jsdoc2md` or `dmd` when generating your docs:
 ```
-$ jsdoc2md --plugin dmd-bitbucket lib/*.js 
+$ jsdoc2md --plugin dmd-bitbucket --src lib/*.js 
 ```
