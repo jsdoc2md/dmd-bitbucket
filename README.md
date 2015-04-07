@@ -2,6 +2,8 @@
 [![npm module downloads per month](http://img.shields.io/npm/dm/dmd-bitbucket.svg)](https://www.npmjs.org/package/dmd-bitbucket)
 [![Dependency Status](https://david-dm.org/jsdoc2md/dmd-bitbucket.svg)](https://david-dm.org/jsdoc2md/dmd-bitbucket)
 
+***work in progress***
+
 # dmd-bitbucket
 You might have noticed the default jsdoc2md output looks shit on Bitbucket. Hence this plugin.. 
 
