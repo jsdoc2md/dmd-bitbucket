@@ -1,19 +1,16 @@
 
-## Classes
-<dl>
-<dt><a href="#FurQ">FurQ</a> ⇐ Rapper</dt>
-<dd><p>C*ck, b!tch, c*ck, b!tch, m*therf!cker. You gotta kill people, to respect people.</p>
-</dd>
-<dt><a href="#Rapper">Rapper</a></dt>
-<dd></dd>
-</dl>
-## Functions
-<dl>
-<dt><a href="#plant">plant()</a></dt>
-<dd><p>to plant ones fist in a buster&#39;s mush</p>
-</dd>
-</dl>
-## FurQ ⇐ Rapper
+# Classes
+Global | Description
+------ | -----------
+FurQ ⇐ Rapper | C\*ck, b!tch, c\*ck, b!tch, m\*therf!cker. You gotta kill people, to respect people.
+Rapper | 
+
+# Functions
+Global | Description
+------ | -----------
+plant() | to plant ones fist in a buster's mush
+
+# FurQ ⇐ Rapper
 C\*ck, b!tch, c\*ck, b!tch, m\*therf!cker. You gotta kill people, to respect people.
 
 **Kind**: global class  
@@ -42,15 +39,16 @@ C\*ck, b!tch, c\*ck, b!tch, m\*therf!cker. You gotta kill people, to respect peo
   * _inner_
     * FurQ~onRespect : function
 
-### new FurQ()
+## new FurQ()
 She's an Uzi lover. 
 
 ![uzi](https://sampleface.co.uk/wp-content/uploads/2013/07/fur-q-uzi-lover.png)
 
 **Example**  
+```js
 var uziLover = require("FurQ");
-
-### furQ.wannaTryIt : string
+```
+## furQ.wannaTryIt : string
 **Kind**: instance property of FurQ  
 **Default**: `"bitch"`  
 **See**
@@ -58,19 +56,19 @@ var uziLover = require("FurQ");
 - "Uzi like a metal dick in my hand."
 - "Magazine like a big testicle gland."
 
-### furQ.LOVE : string
+## furQ.LOVE : string
 **Kind**: instance constant of FurQ  
 **Default**: `"UZI"`  
-### furQ.spit()
+## furQ.spit()
 override
 
 **Kind**: instance method of FurQ  
 **Overrides:** spit  
-### furQ.punch()
+## furQ.punch()
 to plant ones fist in a buster's mush
 
 **Kind**: instance method of FurQ  
-### "pop" (zoop)
+## "pop" (zoop)
 fire weapon
 
 **Kind**: event emitted by FurQ  
@@ -79,23 +77,25 @@ fire weapon
 | --- | --- | --- |
 | zoop | boolean | make 'zooping' sound as you fire |
 
-### "slap"
+## "slap"
 slap man
 
 **Kind**: event emitted by FurQ  
-### furQ.kill()
+## furQ.kill()
 kill
 
 **Kind**: instance method of FurQ  
 **Category**: standard  
 **Example**  
+```js
 var kill = uziLover.kill();
     
-
+```
 **Example**  
+```js
 uziLover.kill();
-
-### furQ.respect(done)
+```
+## furQ.respect(done)
 respect
 
 **Kind**: instance method of FurQ  
@@ -106,11 +106,12 @@ respect
 | done | onRespect | called on reciprocation of respect |
 
 **Example**  
+```js
 uziLover.respect(function(err, gain){
     console.log(gain);
 });
-
-### FurQ.enemy : number
+```
+## FurQ.enemy : number
 FUR-Q enemy types
 
 **Kind**: static enum property of FurQ  
@@ -123,16 +124,17 @@ FUR-Q enemy types
 | BITCH | number | `1` |  |
 | MUTHAFUCKA | number | `2` |  |
 
-### ~~FurQ.peace()~~
+## ~~FurQ.peace()~~
 ***Deprecated***
 
 check if at peace
 
 **Kind**: static method of FurQ  
 **Example**  
+```js
 var peace = FurQ.peace();
-
-### FurQ~onRespect : function
+```
+## FurQ~onRespect : function
 Passed to [respect](#FurQ#respect)
 
 **Kind**: inner typedef of FurQ  
@@ -142,7 +144,7 @@ Passed to [respect](#FurQ#respect)
 | err | Error | an issue with the punch |
 | gain | * | the respect percentage gained |
 
-## Rapper
+# Rapper
 **Kind**: global class  
 
 * Rapper
@@ -155,15 +157,15 @@ Passed to [respect](#FurQ#respect)
         * new School()
         * school.bestStudent
 
-### rapper.spit()
+## rapper.spit()
 spit
 
 **Kind**: instance method of Rapper  
-### rapper.battle()
+## rapper.battle()
 battle
 
 **Kind**: instance method of Rapper  
-### Rapper.train()
+## Rapper.train()
 train new rappers
 
 **Kind**: static method of Rapper  
@@ -173,21 +175,21 @@ train new rappers
       * new School()
       * school.bestStudent
 
-#### train~School
+### train~School
 **Kind**: inner class of train  
 
 * train~School
   * new School()
   * school.bestStudent
 
-##### new School()
+#### new School()
 rap school
 
-##### school.bestStudent
+#### school.bestStudent
 best student
 
 **Kind**: instance property of School  
-## plant()
+# plant()
 to plant ones fist in a buster's mush
 
 **Kind**: global function  
