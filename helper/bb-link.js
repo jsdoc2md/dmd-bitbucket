@@ -20,20 +20,19 @@ function getLink( parent, name, link ) {
         sig = "null#" + name;
         out = links[sig];
     }
-    if (!out) console.log(sig, out, link);
 
     return out;
 }
 
 exports.bbLink = function( parent, prefix, accessSymbol, name, methodSign, returnTypes ) {
-    var args = Array.prototype.slice.call(arguments);
-    args.pop(); //dumping some unwanted garbage.
-    if (args[5]) { //Inserting extra space if needed...
-        var t = args.pop();
-        args.push(" ");
-        args.push(t);
-    }
-    var link = args.join("").replace(/[^ \w]+/g, "").replace(/ +/g, "-").toLowerCase()
+    var link = [
+        parent,
+        prefix?prefix+" ":"",
+        accessSymbol,
+        name,
+        methodSign,
+        returnTypes?" " + returnTypes:""
+    ].join("").replace(/[^ \w]+/g, "").replace(/ +/g, "-").toLowerCase();
     return getLink( parent, name, link );
 };
 
@@ -53,7 +52,6 @@ exports.bbParseLink = function( roughName ) {
     var parts = roughName.split(/[#\.:]/),
         link = getLink( parts[0], parts[1] );
     ;
-    console.log(roughName, link);
     if (link) {
         return "[" + roughName + "](" + BBLINK_PREFIX + link + ")";
     }
