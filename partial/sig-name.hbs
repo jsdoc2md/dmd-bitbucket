@@ -1,12 +1,13 @@
 {{#if virtual}}*{{/if}}{{#with (parentObject)}}{{#if virtual}}*{{/if~}}{{/with~}}
 {{#if name}}{{#sig~}}
 {{{@depOpen}~}}
-[{{{@codeOpen}~}}
+{{{@codeOpen}~}}
 {{#if @prefix}}{{@prefix}} {{/if~}}
+{{@parent~}}
 {{@accessSymbol}}{{#if (isEvent)}}"{{{name}}}"{{else}}{{{name}}}{{/if~}}
-{{~#if @methodSign}}{{#if (isEvent)}} {{@methodSign}}{{else}}{{@methodSign}}{{/if}}{{/if~}}
-{{{@codeClose}}}](#markdown-header-{{{ bbLink @parent @prefix @accessSymbol name @methodSign @returnTypes }}})
-{{~#if @returnSymbol}} {{@returnSymbol}}{{/if~}}
+{{#if @methodSign}}{{#if (isEvent)}} {{@methodSign}}{{else}}{{@methodSign}}{{/if}}{{/if~}}
+{{{@codeClose}~}}
+{{#if @returnSymbol}} {{@returnSymbol}}{{/if~}}
 {{#if @returnTypes}} {{>linked-type-list types=@returnTypes delimiter=" | " }}{{/if~}}
 {{#if @suffix}} {{@suffix}}{{/if~}}
 {{{@depClose}~}}
