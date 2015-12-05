@@ -4,7 +4,7 @@
 */
 
 /**
-She's an Uzi lover. 
+She's an Uzi lover.
 
 ![uzi](https://sampleface.co.uk/wp-content/uploads/2013/07/fur-q-uzi-lover.png)
 
@@ -31,41 +31,41 @@ function FurQ(){
     * respect
     * @category standard
     * @param {FurQ~onRespect} - called on reciprocation of respect
-    * @example 
+    * @example
     * uziLover.respect(function(err, gain){
     *     console.log(gain);
     * });
     */
     this.respect = function(done){};
-    
+
     this.punch = function(){};
-    
+
     /**
     @const {string}
     @default
     */
     this.LOVE = "UZI";
-    
+
     /**
-    @type {string}
+    @type {string|function}
     @default
     @see "Uzi like a metal dick in my hand."
     @see "Magazine like a big testicle gland."
     */
     this.wannaTryIt= "bitch";
-    
+
     /**
     override
     */
     this.spit = function(){};
-    
+
     /**
     fire weapon
     @event FurQ#pop
     @param zoop {boolean} - make 'zooping' sound as you fire
     */
     /**
-    slap man 
+    slap man
     @event FurQ#slap
     */
 }

@@ -1,46 +1,46 @@
 
-# Classes
+## Classes
 Global | Description
 ------ | -----------
 FurQ ⇐ Rapper | C\*ck, b!tch, c\*ck, b!tch, m\*therf!cker. You gotta kill people, to respect people.
 Rapper | 
 
-# Functions
+## Functions
 Global | Description
 ------ | -----------
 plant() | to plant ones fist in a buster's mush
 
-# FurQ ⇐ Rapper
+## FurQ ⇐ Rapper
 C\*ck, b!tch, c\*ck, b!tch, m\*therf!cker. You gotta kill people, to respect people.
 
 **Kind**: global class  
 **Extends:** Rapper  
 **Emits**: pop, slap  
 **Access:** public  
-**See**: https://www.youtube.com/watch?v=1sxZ4tsp8gc  
+**See**: [https://www.youtube.com/watch?v=1sxZ4tsp8gc](https://www.youtube.com/watch?v=1sxZ4tsp8gc)
 **Author:** Chris Morris  
 
-* FurQ ⇐ Rapper
-  * new FurQ()
+* [FurQ](#markdown-header-furq-rapper) ⇐ Rapper
+  * [new FurQ()](#markdown-header-new-furq)
   * _instance_
-    * furQ.wannaTryIt : string
-    * furQ.LOVE : string
-    * furQ.spit()
-    * furQ.battle()
-    * furQ.punch()
-    * "pop" (zoop)
-    * "slap"
+    * [.wannaTryIt](#markdown-header-furqwannatryit-stringfunction) : string &#124; function
+    * [.LOVE](#markdown-header-furqlove-string) : string
+    * [.spit()](#markdown-header-furqspit)
+    * [.battle()](#markdown-header-furqbattle)
+    * [.punch()](#markdown-header-furqpunch)
+    * ["pop" (zoop)](#markdown-header-popzoop)
+    * ["slap"](#markdown-header-slap)
     * _standard_
-      * furQ.kill()
-      * furQ.respect(done)
+      * [.kill()](#markdown-header-furqkill)
+      * [.respect(done)](#markdown-header-furqrespectdone)
   * _static_
-    * FurQ.enemy : number
-    * ~~FurQ.peace()~~
+    * [.enemy](#markdown-header-furqenemy-enum) : enum
+    * ~~[.peace()](#markdown-header-furqpeace)~~
   * _inner_
-    * FurQ~onRespect : function
+    * [~onRespect](#markdown-header-furqonrespect-function) : function
 
-## new FurQ()
-She's an Uzi lover. 
+### new FurQ()
+She's an Uzi lover.
 
 ![uzi](https://sampleface.co.uk/wp-content/uploads/2013/07/fur-q-uzi-lover.png)
 
@@ -48,43 +48,47 @@ She's an Uzi lover.
 ```js
 var uziLover = require("FurQ");
 ```
-## furQ.wannaTryIt : string
-**Kind**: instance property of FurQ  
+### furQ.wannaTryIt : string &#124; function
+**Kind**: instance property of [FurQ](#markdown-header-new-furq)  
 **Default**: `"bitch"`  
 **See**
 
 - "Uzi like a metal dick in my hand."
 - "Magazine like a big testicle gland."
 
-## furQ.LOVE : string
-**Kind**: instance constant of FurQ  
+### furQ.LOVE : string
+**Kind**: instance constant of [FurQ](#markdown-header-new-furq)  
 **Default**: `"UZI"`  
-## furQ.spit()
+### furQ.spit()
 override
 
-**Kind**: instance method of FurQ  
+**Kind**: instance method of [FurQ](#markdown-header-new-furq)  
 **Overrides:** spit  
-## furQ.punch()
+### furQ.battle()
+battle
+
+**Kind**: instance method of [FurQ](#markdown-header-new-furq)  
+### furQ.punch()
 to plant ones fist in a buster's mush
 
-**Kind**: instance method of FurQ  
-## "pop" (zoop)
+**Kind**: instance method of [FurQ](#markdown-header-new-furq)  
+### "pop" (zoop)
 fire weapon
 
-**Kind**: event emitted by FurQ  
+**Kind**: event emitted by [FurQ](#markdown-header-new-furq)  
 
 | Param | Type | Description |
 | --- | --- | --- |
 | zoop | boolean | make 'zooping' sound as you fire |
 
-## "slap"
+### "slap"
 slap man
 
-**Kind**: event emitted by FurQ  
-## furQ.kill()
+**Kind**: event emitted by [FurQ](#markdown-header-new-furq)  
+### furQ.kill()
 kill
 
-**Kind**: instance method of FurQ  
+**Kind**: instance method of [FurQ](#markdown-header-new-furq)  
 **Category**: standard  
 **Example**  
 ```js
@@ -95,10 +99,10 @@ var kill = uziLover.kill();
 ```js
 uziLover.kill();
 ```
-## furQ.respect(done)
+### furQ.respect(done)
 respect
 
-**Kind**: instance method of FurQ  
+**Kind**: instance method of [FurQ](#markdown-header-new-furq)  
 **Category**: standard  
 
 | Param | Type | Description |
@@ -111,10 +115,10 @@ uziLover.respect(function(err, gain){
     console.log(gain);
 });
 ```
-## FurQ.enemy : number
+### FurQ.enemy : enum
 FUR-Q enemy types
 
-**Kind**: static enum property of FurQ  
+**Kind**: static enum property of [FurQ](#markdown-header-new-furq)  
 **Read only**: true  
 **Properties**
 
@@ -124,72 +128,72 @@ FUR-Q enemy types
 | BITCH | number | `1` |  |
 | MUTHAFUCKA | number | `2` |  |
 
-## ~~FurQ.peace()~~
+### ~~FurQ.peace()~~
 ***Deprecated***
 
 check if at peace
 
-**Kind**: static method of FurQ  
+**Kind**: static method of [FurQ](#markdown-header-new-furq)  
 **Example**  
 ```js
 var peace = FurQ.peace();
 ```
-## FurQ~onRespect : function
-Passed to [respect](#FurQ#respect)
+### FurQ~onRespect : function
+Passed to [respect](#FurQ+respect)
 
-**Kind**: inner typedef of FurQ  
+**Kind**: inner typedef of [FurQ](#markdown-header-new-furq)  
 
 | Param | Type | Description |
 | --- | --- | --- |
 | err | Error | an issue with the punch |
 | gain | * | the respect percentage gained |
 
-# Rapper
+## Rapper
 **Kind**: global class  
 
-* Rapper
+* [Rapper](#markdown-header-rapper)
   * _instance_
-    * rapper.spit()
-    * rapper.battle()
+    * [.spit()](#markdown-header-rapperspit)
+    * [.battle()](#markdown-header-rapperbattle)
   * _static_
-    * Rapper.train()
-      * train~School
-        * new School()
-        * school.bestStudent
+    * [.train()](#markdown-header-rappertrain)
+      * [~School](#markdown-header-trainschool)
+        * [new School()](#markdown-header-new-school)
+        * [.bestStudent](#markdown-header-schoolbeststudent)
 
-## rapper.spit()
+### rapper.spit()
 spit
 
-**Kind**: instance method of Rapper  
-## rapper.battle()
+**Kind**: instance method of [Rapper](#markdown-header-rapper)  
+### rapper.battle()
 battle
 
-**Kind**: instance method of Rapper  
-## Rapper.train()
+**Kind**: instance method of [Rapper](#markdown-header-rapper)  
+### Rapper.train()
 train new rappers
 
-**Kind**: static method of Rapper  
+**Kind**: static method of [Rapper](#markdown-header-rapper)  
 
-  * Rapper.train()
-    * train~School
-      * new School()
-      * school.bestStudent
+  * [.train()](#markdown-header-rappertrain)
+    * [~School](#markdown-header-trainschool)
+      * [new School()](#markdown-header-new-school)
+      * [.bestStudent](#markdown-header-schoolbeststudent)
 
-### train~School
+#### train~School
 **Kind**: inner class of train  
 
-* train~School
-  * new School()
-  * school.bestStudent
+* [~School](#markdown-header-trainschool)
+  * [new School()](#markdown-header-new-school)
+  * [.bestStudent](#markdown-header-schoolbeststudent)
 
-#### new School()
+##### new School()
 rap school
 
-#### school.bestStudent
+##### school.bestStudent
 best student
 
-**Kind**: instance property of School  
-# plant()
+**Kind**: instance property of [School](#markdown-header-new-school)  
+## plant()
 to plant ones fist in a buster's mush
 
 **Kind**: global function  
