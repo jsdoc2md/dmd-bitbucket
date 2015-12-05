@@ -1,7 +1,7 @@
 {
   "name": "dmd-bitbucket",
   "author": "Lloyd Brookes <75pound@gmail.com>",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "dmd-bitbucket",
   "repository": "https://github.com/jsdoc2md/dmd-bitbucket.git",
   "main": "./lib/dmd-bitbucket.js",
