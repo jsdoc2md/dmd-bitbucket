@@ -5,16 +5,17 @@
 ***work in progress***
 
 # dmd-bitbucket
-You might have noticed the default jsdoc2md output looks shit on Bitbucket. Hence this plugin.. 
+You might have noticed the default jsdoc2md output looks shit on Bitbucket. Hence this plugin..
 
+[Demo output](https://bitbucket.org/75lb/dmd-bitbucket/src/master/test/class-furq.md?at=master&fileviewer=file-view-default).
 
 ## Install and use
-In the project requiring this plug-in, install it as a devDependency: 
+In the project requiring this plug-in, install it as a devDependency:
 ```
 $ npm install dmd-bitbucket --save-dev
 ```
 
 Then pass the plug-in name to `jsdoc2md` or `dmd` when generating your docs:
 ```
-$ jsdoc2md --plugin dmd-bitbucket --src lib/*.js 
+$ jsdoc2md --plugin dmd-bitbucket --src lib/*.js
 ```
