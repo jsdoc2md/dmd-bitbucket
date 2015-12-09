@@ -23,7 +23,7 @@ C\*ck, b!tch, c\*ck, b!tch, m\*therf!cker. You gotta kill people, to respect peo
 * [FurQ](#markdown-header-furq-rapper) ⇐ Rapper
   * [new FurQ()](#markdown-header-new-furq)
   * _instance_
-    * [.wannaTryIt](#markdown-header-furqwannatryit-stringfunction) : string | function
+    * [.wannaTryIt](#markdown-header-furqwannatryit-stringfunction) : string \u23ae function
     * [.LOVE](#markdown-header-furqlove-string) : string
     * [.spit()](#markdown-header-furqspit)
     * [.battle()](#markdown-header-furqbattle)
@@ -48,7 +48,7 @@ She's an Uzi lover.
 ```js
 var uziLover = require("FurQ");
 ```
-### furQ.wannaTryIt : string | function
+### furQ.wannaTryIt : string \u23ae function
 **Kind**: instance property of [FurQ](#markdown-header-new-furq)  
 **Default**: `"bitch"`  
 **See**
@@ -79,7 +79,7 @@ fire weapon
 
 | Param | Type | Description |
 | --- | --- | --- |
-| zoop | boolean | make 'zooping' sound as you fire |
+| zoop | boolean \u23ae string | make 'zooping' sound as you fire |
 
 ### "slap"
 slap man

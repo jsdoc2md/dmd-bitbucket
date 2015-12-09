@@ -62,7 +62,7 @@ function FurQ(){
     /**
     fire weapon
     @event FurQ#pop
-    @param zoop {boolean} - make 'zooping' sound as you fire
+    @param zoop {boolean|string} - make 'zooping' sound as you fire
     */
     /**
     slap man
