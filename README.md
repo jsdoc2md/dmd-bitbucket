@@ -17,3 +17,7 @@ Then pass the plug-in name to `jsdoc2md` or `dmd` when generating your docs:
 ```
 $ jsdoc2md --plugin dmd-bitbucket --src lib/*.js
 ```
+
+* * *
+
+&copy; 2015 Lloyd Brookes <75pound@gmail.com>. 
