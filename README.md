@@ -5,7 +5,7 @@
 # dmd-bitbucket
 You might have noticed the default jsdoc2md output looks shit on Bitbucket. Hence this plugin..
 
-[Demo output](https://bitbucket.org/75lb/dmd-bitbucket/src/master/test/class-furq.md?at=master&fileviewer=file-view-default).
+[Demo output](https://bitbucket.org/75lb/dmd-bitbucket-demo).
 
 ## Install and use
 In the project requiring this plug-in, install it as a devDependency:
