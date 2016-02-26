@@ -1,5 +1,5 @@
 {
-  "name": "dmd-bitbucket",
+  "name": "dmd-bitbucket2",
   "author": "Lloyd Brookes <75pound@gmail.com>",
   "version": "0.1.9",
   "description": "dmd-bitbucket",
@@ -10,5 +10,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {},
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dmd2": "file:///Users/lloyd/Documents/jsdoc2md2/dmd2"
+  }
 }
