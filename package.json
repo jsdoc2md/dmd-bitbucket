@@ -12,6 +12,5 @@
   "scripts": {},
   "license": "MIT",
   "dependencies": {
-    "dmd2": "file:///Users/lloyd/Documents/jsdoc2md2/dmd2"
   }
 }
