@@ -19,15 +19,15 @@ She's an Uzi lover.
 @fires FurQ#slap
 @example var uziLover = require("FurQ");
 */
-function FurQ(){
-    /**
+function FurQ () {
+  /**
     kill
     @category standard
     @example var kill = uziLover.kill();
     @example uziLover.kill();
     */
-    this.kill = function(){};
-    /**
+  this.kill = function () {}
+  /**
     * respect
     * @category standard
     * @param {FurQ~onRespect} - called on reciprocation of respect
@@ -36,35 +36,35 @@ function FurQ(){
     *     console.log(gain);
     * });
     */
-    this.respect = function(done){};
+  this.respect = function (done) {}
 
-    this.punch = function(){};
+  this.punch = function () {}
 
-    /**
+  /**
     @const {string}
     @default
     */
-    this.LOVE = "UZI";
+  this.LOVE = 'UZI'
 
-    /**
+  /**
     @type {string|function}
     @default
     @see "Uzi like a metal dick in my hand."
     @see "Magazine like a big testicle gland."
     */
-    this.wannaTryIt= "bitch";
+  this.wannaTryIt = 'bitch'
 
-    /**
+  /**
     override
     */
-    this.spit = function(){};
+  this.spit = function () {}
 
-    /**
+  /**
     fire weapon
     @event FurQ#pop
     @param zoop {boolean|string} - make 'zooping' sound as you fire
     */
-    /**
+  /**
     slap man
     @event FurQ#slap
     */
@@ -75,7 +75,7 @@ check if at peace
 @deprecated
 @example var peace = FurQ.peace();
 */
-FurQ.peace = function(){};
+FurQ.peace = function () {}
 
 /**
 FUR-Q enemy types
@@ -83,19 +83,18 @@ FUR-Q enemy types
 @readonly
 */
 FurQ.enemy = {
-    /**
+  /**
     an awful individual
     */
-    COCK: 0,
-    BITCH: 1,
-    MUTHAFUCKA: 2
-};
-
+  COCK: 0,
+  BITCH: 1,
+  MUTHAFUCKA: 2
+}
 
 /**
 to plant ones fist in a buster's mush
 */
-function plant(){};
+function plant () {};
 
 /**
 Passed to {@link FurQ#respect}
@@ -104,33 +103,32 @@ Passed to {@link FurQ#respect}
 @param gain {*} - the respect percentage gained
 */
 
-
 /**
 @class
 */
-function Rapper(){
-    /**
+function Rapper () {
+  /**
     spit
     */
-    this.spit = function(){};
-    /**
+  this.spit = function () {}
+  /**
     battle
     */
-    this.battle = function(){};
+  this.battle = function () {}
 }
 /**
 train new rappers
 */
-Rapper.train = function(){
-    /**
+Rapper.train = function () {
+  /**
     rap school
     @class
     */
-    function School(){
-        /**
+  function School () {
+    /**
         best student
         */
-        this.bestStudent = null;
-    }
-    return new School();
-};
+    this.bestStudent = null
+  }
+  return new School()
+}

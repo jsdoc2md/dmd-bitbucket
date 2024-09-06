@@ -1,43 +1,30 @@
 
-## Classes
-Global | Description
------- | -----------
-FurQ ⇐ Rapper | C\*ck, b!tch, c\*ck, b!tch, m\*therf!cker. You gotta kill people, to respect people.
-Rapper | 
-
-## Functions
-Global | Description
------- | -----------
-plant() | to plant ones fist in a buster's mush
-
 ## FurQ ⇐ Rapper
 C\*ck, b!tch, c\*ck, b!tch, m\*therf!cker. You gotta kill people, to respect people.
 
 **Kind**: global class  
-**Extends:** Rapper  
-**Emits**: pop, slap  
-**Access:** public  
+**Extends**: Rapper  
+**Emits**: FurQ#event:pop, FurQ#event:slap  
+**Access**: public  
 **See**: [https://www.youtube.com/watch?v=1sxZ4tsp8gc](https://www.youtube.com/watch?v=1sxZ4tsp8gc)
-**Author:** Chris Morris  
+**Author**: Chris Morris  
 
 * [FurQ](#markdown-header-furq-rapper) ⇐ Rapper
-  * [new FurQ()](#markdown-header-new-furq)
-  * _instance_
-    * [.wannaTryIt](#markdown-header-furqwannatryit-stringfunction) : string ⎮ function
-    * [.LOVE](#markdown-header-furqlove-string) : string
-    * [.spit()](#markdown-header-furqspit)
-    * [.battle()](#markdown-header-furqbattle)
-    * [.punch()](#markdown-header-furqpunch)
-    * ["pop" (zoop)](#markdown-header-popzoop)
-    * ["slap"](#markdown-header-slap)
-    * _standard_
-      * [.kill()](#markdown-header-furqkill)
-      * [.respect(done)](#markdown-header-furqrespectdone)
-  * _static_
-    * [.enemy](#markdown-header-furqenemy-enum) : enum
-    * ~~[.peace()](#markdown-header-furqpeace)~~
-  * _inner_
-    * [~onRespect](#markdown-header-furqonrespect-function) : function
+    * [new FurQ()](#markdown-header-new-furq)
+    * _instance_
+        * [.wannaTryIt](#markdown-header-furqwannatryit-stringfunction) : string ⎮ function
+        * [.LOVE](#markdown-header-furqlove-string) : string
+        * [.spit()](#markdown-header-furqspit)
+        * [.battle()](#markdown-header-furqbattle)
+        * [.punch()](#markdown-header-furqpunch)
+        * _standard_
+            * [.kill()](#markdown-header-furqkill)
+            * [.respect(done)](#markdown-header-furqrespectdone)
+    * _static_
+        * [.enemy](#markdown-header-furqenemy-enum) : enum
+        * ~~[.peace()](#markdown-header-furqpeace)~~
+    * _inner_
+        * [~onRespect](#markdown-header-furqonrespect-function) : function
 
 ### new FurQ()
 She's an Uzi lover.
@@ -63,7 +50,7 @@ var uziLover = require("FurQ");
 override
 
 **Kind**: instance method of [FurQ](#markdown-header-new-furq)  
-**Overrides:** spit  
+**Overrides**: spit  
 ### furQ.battle()
 battle
 
@@ -72,19 +59,6 @@ battle
 to plant ones fist in a buster's mush
 
 **Kind**: instance method of [FurQ](#markdown-header-new-furq)  
-### "pop" (zoop)
-fire weapon
-
-**Kind**: event emitted by [FurQ](#markdown-header-new-furq)  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| zoop | boolean ⎮ string | make 'zooping' sound as you fire |
-
-### "slap"
-slap man
-
-**Kind**: event emitted by [FurQ](#markdown-header-new-furq)  
 ### furQ.kill()
 kill
 
@@ -118,7 +92,7 @@ uziLover.respect(function(err, gain){
 ### FurQ.enemy : enum
 FUR-Q enemy types
 
-**Kind**: static enum property of [FurQ](#markdown-header-new-furq)  
+**Kind**: static enum of [FurQ](#markdown-header-new-furq)  
 **Read only**: true  
 **Properties**
 
@@ -152,14 +126,14 @@ Passed to [respect](#FurQ+respect)
 **Kind**: global class  
 
 * [Rapper](#markdown-header-rapper)
-  * _instance_
-    * [.spit()](#markdown-header-rapperspit)
-    * [.battle()](#markdown-header-rapperbattle)
-  * _static_
-    * [.train()](#markdown-header-rappertrain)
-      * [~School](#markdown-header-trainschool)
-        * [new School()](#markdown-header-new-school)
-        * [.bestStudent](#markdown-header-schoolbeststudent)
+    * _instance_
+        * [.spit()](#markdown-header-rapperspit)
+        * [.battle()](#markdown-header-rapperbattle)
+    * _static_
+        * [.train()](#markdown-header-rappertrain)
+            * [~School](#markdown-header-trainschool)
+                * [new School()](#markdown-header-new-school)
+                * [.bestStudent](#markdown-header-schoolbeststudent)
 
 ### rapper.spit()
 spit
@@ -174,17 +148,17 @@ train new rappers
 
 **Kind**: static method of [Rapper](#markdown-header-rapper)  
 
-  * [.train()](#markdown-header-rappertrain)
+* [.train()](#markdown-header-rappertrain)
     * [~School](#markdown-header-trainschool)
-      * [new School()](#markdown-header-new-school)
-      * [.bestStudent](#markdown-header-schoolbeststudent)
+        * [new School()](#markdown-header-new-school)
+        * [.bestStudent](#markdown-header-schoolbeststudent)
 
 #### train~School
 **Kind**: inner class of train  
 
 * [~School](#markdown-header-trainschool)
-  * [new School()](#markdown-header-new-school)
-  * [.bestStudent](#markdown-header-schoolbeststudent)
+    * [new School()](#markdown-header-new-school)
+    * [.bestStudent](#markdown-header-schoolbeststudent)
 
 ##### new School()
 rap school
