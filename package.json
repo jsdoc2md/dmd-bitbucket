@@ -1,7 +1,7 @@
 {
   "name": "dmd-bitbucket",
   "author": "Lloyd Brookes <75pound@gmail.com>",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Plugin for jsdoc2md to produce markdown suitable for bitbucket",
   "repository": "https://github.com/jsdoc2md/dmd-bitbucket.git",
   "main": "./lib/dmd-bitbucket.js",
